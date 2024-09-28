@@ -37,9 +37,8 @@ The technology for the project involves fundamental speech recognition models, a
 
 ## Resources
 1. https://github.com/BU-Spark/pitne-aimpower 
-2. [https://www.tableau.com/learn/articles/best-beautiful-data-visualization-examples] The 10 Best Data Visualization Examples | Tableau 
-3. [https://visualisingdata.com/resources/] Data Visualisation Resources - Data Viz Excellence, Everywhere (visualisingdata.com)
-
+2. [The 10 Best Data Visualization Examples | Tableau](https://www.tableau.com/learn/articles/best-beautiful-data-visualization-examples)
+3. [Data Visualisation Resources - Data Viz Excellence, Everywhere (visualisingdata.com)](https://visualisingdata.com/resources/)
 ### Data Sets
 _Not Available As Of Completion of this Outline_
 
