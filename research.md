@@ -57,14 +57,14 @@
         * Convolutional Network &rarr; Processing Audio Files & Increasing Dimensions
         * 24 Transformer Blocks (LLM)
     * Emphasis
-        * Low resource training can still achieve high performance
+        * Low resource training can still achieve high performance \n
     **Wav2Vec 2.0 no multilingual features reported in the paper. But there are repositories that demonstrated application with Wav2Vec 2.0 in Mandarin Speech Recognition[example repo](https://github.com/kehanlu/Mandarin-Wav2Vec2)**
 * [WeNet 2.0](https://arxiv.org/pdf/2203.15455)
     * Model Architecture
         * Bidirectional encoding & decoding
         * N-gram language model
     * Addressed contextual biases but not the quality of the audio dataset or input
-        * Focus more on biases in content reconstruction. To some extent this can help with stuttered speech recognition but the objective is not directly for support of that purpose.
+        * Focus more on biases in content reconstruction. To some extent this can help with stuttered speech recognition but the objective is not directly for support of that purpose. \n
     **WeNet 2.0 was designed to support Mandarin Chinese, as indicated in the paper with plenty of examples implementing audio recognition and sequential prediction on Chinese text.**
 * [NVIDIA STT Canary](https://arxiv.org/pdf/2406.19674)
     * Model Architecture
