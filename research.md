@@ -81,6 +81,14 @@
 * [Meta Seamless M4T](https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/369747868_602316515432698_2401716319310287708_n.pdf?_nc_cat=106&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=uGUYVevo9OgQ7kNvgHXKeh0&_nc_ht=scontent-lga3-1.xx&_nc_gid=AZRLYCUGcMC3N1VBv-wgyIH&oh=00_AYCxsQmvYgDbP291ifapxKN_wadzSdWVDLQAvnmRzwuk8Q&oe=6708DCF9)
     * No direct description over the Seamless M4T model architecture was found. However, it emphasizes multilingualism and multimodality. 
     * It also detailed the problems of responsible AI, including biases, and provides considerations and evaluations on the models on comparisons between masculine and feminine voices, language types, genders. No evaluations and discussions with stuttered speech, utterance, or accent were found.
+* Accuracy Improvement Methods
+    * Fine-Tuning Method
+        * Reducing the weight of the Acoustic Model (AC) and increasing the weight of the Language Model (LM) make the system more dependent on LM to reduce the incorrect insertion of stuttering phenomena, like sound repetition and prolongation. (https://arxiv.org/abs/2106.11759)
+        * Word Insertion Penalty: Increase the word insertion punishment to reduce the inserted error caused by stuttering. (https://arxiv.org/abs/2106.11759)
+        * Personalized ASR Model: Create a personalized ASR model for each individual, and optimize the model with SpecAugment (regularization method) and Adam optimizer. (https://research.google/pubs/automatic-speech-recognition-of-disordered-speech-personalized-models-outperforming-human-listeners-on-short-phrases/)
+    * Detection and Transcription Method
+        * Use CNN and FC layers to detect whether each frame contains stuttering events. Pack the audio frame with the flag whether it contains stutter into metadata, and input into an ASR model. Then the ASR model utilizes the extra information during its decoding process and skips frames with stutter. (https://arxiv.org/abs/2202.05396)
+        * Detect and mark the stutter type and position by Speech Language Pathologist (SLP), and transcribe with both ASR models and the comments. (https://ohsu.elsevierpure.com/en/publications/using-clinician-annotations-to-improve-automatic-speech-recogniti)
 
 
 
