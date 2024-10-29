@@ -19,3 +19,13 @@ The dataset is organized in the following hierarchy:
 │	D<sample-id>_B.txt		(transcript of moderator from casual conversation)
 │	P<sample-id>.txt		(transcript of specifically instructed words to be read by interviewee)
 ```
+
+
+## Analysis Explanation
+
+Our target variables for analysis:
+
+* audio duration
+* stuttering occurances and types
+* mask (words being muted in audio but present in transcript with annotation) occurence, etc.
+
