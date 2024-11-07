@@ -10,10 +10,10 @@ At the end of the semester during project wrap up open a final Pull Request to m
 
 ## Team
 
-|Role   |Name      |Email        |
-|-------|----------|-------------|
-|Project Manager |Hakob Janesian |hakob@bu.edu |
-|Participant |Wai Yuen Cheng (Wylliam) |wycheng@bu.ed |
-|Participant |Lingjie Yuan (Leslie) |yuanlj@bu.edu |
-|Participant |Yol-Emma Veillard (Emma) |chimmay@bu.edu |
-|Participant |Mary Choe |marychoe@bu.edu |
+|Role   |Name      |Email        | GitHub User Name |
+|-------|----------|-------------| ---------------- |
+|Project Manager |Hakob Janesian |hakob@bu.edu |   |
+|Participant |Wai Yuen Cheng (Wylliam) |wycheng@bu.ed |  |
+|Participant |Lingjie Yuan (Leslie) |yuanlj@bu.edu |  |
+|Participant |Yol-Emma Veillard (Emma) |chimmay@bu.edu |  |
+|Participant |Mary Choe |marychoe@bu.edu |  |
