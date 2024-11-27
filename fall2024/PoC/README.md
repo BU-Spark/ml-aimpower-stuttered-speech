@@ -19,3 +19,4 @@ We have attempted to draw relationship between **stuttering count** and performa
 
 # Upcoming Agenda
 * Normalized analysis => merging **stuttering count** and **audio length** into new parameter **frequency**
+* Process the falsely parsed transcription
